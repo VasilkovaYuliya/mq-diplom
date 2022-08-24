@@ -11,7 +11,7 @@
     <header class="header">
         <div class="container">
             <div class="nav"> 
-                <a href="0#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" class="logo" alt="Логотип NOEMI"></a>
+                <a href="0#"><img src="svg/noemi-logo.svg" class="logo" alt="Логотип NOEMI"></a>
                 <nav>
       <ul class="menu">
                     <li class="menu-list">
@@ -406,7 +406,6 @@
                 <source srcset="images/shop-item-desk1.jpg">
                 <img class="shop-item-desk1" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
             </picture>
-            <div class="product__body">
                 <div class="product__content">
                     <h2 class="product__title">
                         <a href="#0">Подушки на диван</a>
@@ -427,15 +426,13 @@
                      </div>
                      <button class="product__button" type="button">В магазин</button>
                     </div>
-                 </div>
-            </div>
+                </div>
         </article>
         <article class="product">
             <picture class="product__imgbox">
                 <source srcset="images/shop-item-desk2.jpg">
                 <img class="shop-item-desk2" src="images/shop-item-desk2.jpg" alt="Кукла «Зайчик»">
             </picture>
-            <div class="product__body">
                 <div class="product__content">
                     <h2 class="product__title">
                         <a href="#0">Кукла «Зайчик»</a>
@@ -453,14 +450,12 @@
                      <button class="product__button" type="button">В магазин</button>
                 </div>
             </div>
-            </div>
         </article>
         <article class="product">
             <picture class="product__imgbox">
                 <source  srcset="images/shop-item-desk3.jpg">
                 <img class="shop-item-desk3" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка">
             </picture>
-            <div class="product__body">
                 <div class="product__content">
                     <h2 class="product__title">
                         <a href="#0">Шестиугольная рамка</a>
@@ -483,8 +478,7 @@
                      <button class="product__button" type="button">В магазин</button>
                 </div>
             </div>
-            </div>
-        </article>
+         </article>
     </div>
     </div>
     <footer class="footer">
@@ -508,5 +502,46 @@
               <a href="#0">Copyright © 2009–2019 City Blog LLC.</a>
           </div>
       </footer>
+      <popup class="popup ">
+       <div class="popup__container">
+            <div class="popup__content">
+                  <h2 class="popup__title">Ваш фидбэк</h2>
+                  <div class="close__popup"></div>
+                    <form class="form">
+                        <div class="form__group">
+                            <label class="field__group">
+                                <span class="field__label">Как часто вы заходите на сайт?</span>
+                                <select class="select">                                         
+                                    <option class="variants" value="Almost every day" selected>Почти каждый день</option>
+                                    <option class="variants" value="Once every few days">Раз в несколько дней</option>
+                                    <option class="variants" value="Once every few weeks">Раз в несколько недель</option>
+                                    <option class="variants" value="Several times a year">Несколько раз в год</option>
+                                </select>
+                                </label>
+                            <div class="form__group">
+                                <span class="field__label">Вы подписаны на e-mail рассылку?</span>
+                                <label class="radio__group">
+                                    <input type="radio" class="radio" name="radio__group">
+                                    <span class="radio__group-text">Да</span>
+                                </label>
+                                <label class="radio__group">
+                                    <input type="radio" class="radio" name="radio__group">
+                                    <span class="radio__group-text">Нет</span>
+                                </label>
+                            </div>
+                            <div class="form__group">
+                                <label class="field__group">
+                                    <span class="field__label">Расскажите, какой контент вы бы хотели видеть на нашем сайте?</span>
+                                    <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
+                                </label>
+                            </div>
+                            <div class="form__group">
+                                <button class="submit">Отправить</button>
+                            </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </popup>
 </body>
 </html>
