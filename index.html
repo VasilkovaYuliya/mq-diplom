@@ -41,6 +41,50 @@
                </div>
         </div>
 </header>
+<popup class="popup">
+    <div class="popup__container">
+         <div class="popup__content">
+               <h2 class="popup__title">Ваш фидбэк</h2>
+               <div class="close__popup">
+                 <span class="visually-hidden" aria-hidden="true">Закрыть popup</span>
+               </div>
+                 <form class="form">
+                     <div class="form__group">
+                         <label class="field__group">
+                             <span class="field__label">Как часто вы заходите на сайт?</span>
+                             <select class="select">                                         
+                                 <option value="Almost every day" selected>Почти каждый день</option>
+                                 <option value="Once every few days">Раз в несколько дней</option>
+                                 <option value="Once every few weeks">Раз в несколько недель</option>
+                                 <option value="Several times a year">Несколько раз в год</option>
+                             </select>
+                         </label>
+                         <div class="form__group">
+                             <span class="field__label">Вы подписаны на e-mail рассылку?</span>
+                             <label class="radio__group">
+                                 <input type="radio" class="radio" name="radio__group" checked>
+                                 <span class="radio__group-text">Да</span>
+                             </label>
+                             <label class="radio__group"> 
+                                 <input type="radio" class="radio" name="radio__group">
+                                 <span class="radio__group-text">Нет</span>
+                             </label>
+                         </div>
+                         <div class="form__group">
+                             <label class="field__group">
+                                 <span class="field__label">Расскажите, какой контент вы бы хотели видеть на нашем сайте?</span>
+                                 <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
+                             </label>
+                         </div>
+                         <div class="form__group">
+                             <button class="submit">Отправить</button>
+                             <span class="visually-hidden" aria-hidden="true">Кнопка отправить</span>
+                         </div>
+                         </div>
+                 </form>
+        </div>
+    </div>
+     </popup>
     <section>
         <div class="trends">
             <h2 class="title__trends">
@@ -111,7 +155,7 @@
         <main>
                 <article class="post">
                     <div class="post_gallery">
-                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" class="post_image" alt="Человек на пляже">
+                        <img src="images/last-post1.jpg" class="post_image" alt="Человек на пляже">
                     </div>
                     <div class="post_info">
                         <ul class="post_item">
@@ -135,7 +179,7 @@
                 </article>
                 <article class="post">
                     <div class="post_gallery">
-                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" class="post_image" alt="Йога">
+                        <img src="images/last-post2.jpg" class="post_image" alt="Йога">
                     </div>
                 <div class="post_info">
                         <ul class="post_item">
@@ -159,7 +203,7 @@
                 </article>
                 <article class="post">
                     <div class="post_gallery">
-                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" class="post_image" alt="Фестиваль">
+                        <img src="images/last-post3.jpg" class="post_image" alt="Фестиваль">
                     </div>
                     <div class="post_info">
                         <ul class="post_item">
@@ -182,7 +226,7 @@
                 </article>
                 <article class="post">
                     <div class="post_gallery">
-                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" class="post_image" alt="Завтрак">
+                        <img src="images/last-post4.jpg" class="post_image" alt="Завтрак">
                     </div>
                     <div class="post_info">
                         <ul class="post_item">
@@ -207,7 +251,7 @@
                 </article>
                 <article class="post">
                     <div class="post_gallery">
-                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" class="post_image" alt="Подушки">
+                        <img src="images/last-post5.jpg" class="post_image" alt="Подушки">
                     </div>
                     <div class="post_info">
                         <ul class="post_item">
@@ -233,32 +277,7 @@
                     </div>
                 </div>
                 </article>
-                <article class="post">
-                    <div class="post_gallery">
-                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" class="post_image" alt="Горы">
-                    </div>
-                    <div class="post_info">
-                        <ul class="post_item">
-                        <li>
-                            <a href="#0">Travel</a>	
-                        </li>
-                        <li>
-                            <a href="#0">Lifestyle</a>		
-                        </li>
-                    </ul>
-                    <div class="post_header">
-                        <h2 class="post_name">
-                            <a href="#0">Как первый раз отправиться
-                                в горы?</a>
-                        </h2>
-                        <div class="post_creator"><time class="post_date" datetime="2019-06-10">10 июня 2019</time><span>Неизвестный автор</span></div>
-                    </div>
-                    <div class="post_content">
-                        <p>Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
-                    </div>
-                </div>
-                </article>
-        </main>
+            </main>
         <aside class="sidebar-widget">
             <section>
     <div class="subtitle">
@@ -267,7 +286,7 @@
                 </h3>	
             </div>
             <article class="sidebar_news">
-                    <img src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" class="sidebar_image">
+                    <img src="images/2.jpg" class="sidebar_image">
                     <div class="sidebar-info">
                         <time class="sidebar_date" datetime="2019-06-10">14 июня 2019</time>
                         <h4 class="name">
@@ -275,7 +294,7 @@
             </div>
             </article>
             <div class="sidebar_news">
-                    <img src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg" class="sidebar_image">
+                    <img src="images/151.jpg" class="sidebar_image">
                     <div class="sidebar-info">
                         <time class="sidebar_date" datetime="2019-06-10">14 июня 2019</time>
                         <h4 class="name">
@@ -283,7 +302,7 @@
                 </div>
             </div>
                 <article class="sidebar_news">
-                    <img src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg" class="sidebar_image">
+                    <img src="images/45.jpg" class="sidebar_image">
                     <div class="sidebar-info">
                         <time class="sidebar_date" datetime="2019-06-10">14 июня 2019</time>
                         <h4 class="name">
@@ -291,7 +310,7 @@
                 </div>
                 </article>
                 <div class="sidebar_news">
-                    <img src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg" class="sidebar_image">
+                    <img src="images/501.jpg" class="sidebar_image">
                     <div class="sidebar-info">
                         <time class="sidebar_date" datetime="2019-06-10">14 июня 2019</time>
                         <h4 class="name">
@@ -299,7 +318,7 @@
                 </div>
                 </div>
                 <article class="sidebar_news">
-                    <img src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg" class="sidebar_image">
+                    <img src="images/7.jpg" class="sidebar_image">
                     <div class="sidebar-info">
                         <time class="sidebar_date" datetime="2019-06-10">14 июня 2019</time>
                         <h4 class="name">
@@ -502,46 +521,5 @@
               <a href="#0">Copyright © 2009–2019 City Blog LLC.</a>
           </div>
       </footer>
-      <popup class="popup ">
-       <div class="popup__container">
-            <div class="popup__content">
-                  <h2 class="popup__title">Ваш фидбэк</h2>
-                  <div class="close__popup"></div>
-                    <form class="form">
-                        <div class="form__group">
-                            <label class="field__group">
-                                <span class="field__label">Как часто вы заходите на сайт?</span>
-                                <select class="select">                                         
-                                    <option class="variants" value="Almost every day" selected>Почти каждый день</option>
-                                    <option class="variants" value="Once every few days">Раз в несколько дней</option>
-                                    <option class="variants" value="Once every few weeks">Раз в несколько недель</option>
-                                    <option class="variants" value="Several times a year">Несколько раз в год</option>
-                                </select>
-                                </label>
-                            <div class="form__group">
-                                <span class="field__label">Вы подписаны на e-mail рассылку?</span>
-                                <label class="radio__group">
-                                    <input type="radio" class="radio" name="radio__group">
-                                    <span class="radio__group-text">Да</span>
-                                </label>
-                                <label class="radio__group">
-                                    <input type="radio" class="radio" name="radio__group">
-                                    <span class="radio__group-text">Нет</span>
-                                </label>
-                            </div>
-                            <div class="form__group">
-                                <label class="field__group">
-                                    <span class="field__label">Расскажите, какой контент вы бы хотели видеть на нашем сайте?</span>
-                                    <textarea class="field textarea" placeholder="Может, больше рецептов?" required></textarea>
-                                </label>
-                            </div>
-                            <div class="form__group">
-                                <button class="submit">Отправить</button>
-                            </div>
-                            </div>
-                    </form>
-                </div>
-            </div>
-        </popup>
-</body>
+   </body>
 </html>
