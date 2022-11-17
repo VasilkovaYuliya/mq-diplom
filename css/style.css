@@ -945,7 +945,7 @@ display: none;
   
 /*Tablet*/
 /*Tablet*/
-@media(min-width: 641px) and (max-width: 920px) {
+@media(min-width: 641px) and (max-width: 1200px) {
 .container {
 width: 698px;
 padding: 0 35px;
